@@ -47,7 +47,7 @@ const Portafolio = () => {
   };
 
   return (
-    <div className="w-full min-h-screen bg-gray-900 text-gray-100">
+    <div className="w-full overflow-hidden min-h-screen bg-gray-900 text-gray-100">
       <style jsx>{`
         @keyframes gradient {
           0%, 100% { background-position: 0% 50%; }

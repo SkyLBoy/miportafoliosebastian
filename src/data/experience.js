@@ -38,7 +38,7 @@ export const experiences = [
       color: {
         primary: 'blue-400',
         secondary: 'teal-400',
-        gradient: 'from-green-500/10 to-teal-600/10'
+        gradient: 'from-gray-500/10 to-teal-600/10'
       },
       description: 'Desarrollo integral de un sistema de inventario personalizado para optimizar la gestión de activos y recursos de la empresa Vincco.',
       achievements: [
@@ -60,7 +60,7 @@ export const experiences = [
       color: {
         primary: 'blue-400',
         secondary: 'blue-400',
-        gradient: 'from-purple-500/10 to-blue-600/10'
+        gradient: 'from-red-500/10 to-blue-600/10'
       },
       description: 'Responsable de la gestión completa de la infraestructura tecnológica de la empresa, incluyendo redes y mantenimiento de equipos.',
       achievements: [

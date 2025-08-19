@@ -4,6 +4,7 @@ import { personalInfo } from '../data/personal';
 import { useScrollTo } from '../hooks/useScrollSpy';
 import { useAnimations } from '../hooks/useAnimations';
 import Button from '../components/ui/Button';
+import DownloadCV from '../components/ui/DownloadCV';
 import miFoto from '../assets/images/miFoto.png';
 
 const HeroSection = () => {
@@ -77,6 +78,9 @@ const HeroSection = () => {
               >
                 Contactar
               </Button>
+              
+              {/* Botón de descarga de CV */}
+              <DownloadCV variant="outline" />
             </div>
           </div>
 

@@ -9,7 +9,7 @@ const ContactSection = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Conecta <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Conmigo</span>
+            Contacta <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Conmigo</span>
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-400 to-purple-500 mx-auto mb-4"></div>
           <p className="text-gray-400 text-lg">

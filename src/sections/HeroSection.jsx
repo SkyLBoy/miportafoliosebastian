@@ -94,8 +94,8 @@ const HeroSection = () => {
               <div className="absolute inset-4 rounded-full border border-purple-400/30 animate-spin-reverse-slow"></div>
               
               {/* Contenedor de foto */}
-              <div className="absolute inset-8 rounded-full bg-gradient-to-br from-blue-500/10 to-purple-600/10 backdrop-blur-sm border border-gray-700/50 overflow-hidden group hover:scale-105 transition-transform duration-500">
-                <div className="w-72 h-72 rounded-full overflow-hidden shadow-lg border-4 border-blue-500/30">
+              <div className="absolute inset-6 rounded-full bg-gradient-to-br from-blue-500/10 to-purple-600/10 backdrop-blur-sm border border-gray-700/50 overflow-hidden group hover:scale-105 transition-transform duration-500">
+                <div className="w-80 h-80 rounded-full overflow-hidden shadow-lg border-4 border-blue-500/30">
                   <img 
                     src={miFoto} 
                     alt="Foto de perfil" 

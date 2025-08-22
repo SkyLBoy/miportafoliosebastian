@@ -1,6 +1,3 @@
-// src/components/ui/Timeline.jsx
-// Componente Timeline para mostrar experiencias
-// Se usa automáticamente en ExperienceSection
 
 import React from 'react';
 import { Calendar } from 'lucide-react';

@@ -1,9 +1,7 @@
 // src/hooks/useScrollSpy.jsx
 import { useState, useEffect, useCallback } from 'react';
 
-/**
- * Hook para desplazamiento suave a un id de sección
- */
+
 export const useScrollTo = () => {
   return useCallback((id) => {
     const element = document.getElementById(id);
@@ -15,9 +13,10 @@ export const useScrollTo = () => {
 
 /**
  * Hook para resaltar la sección activa al hacer scroll
- * @param {string[]} sectionIds - Lista de ids de las secciones a observar
- * @param {number} offset - Desplazamiento para ajustar el punto de activación
+ * @param {string[]} sectionIds 
+ * @param {number} offset 
  */
+
 export const useScrollSpy = (sectionIds = [], offset = 0) => {
   const [activeId, setActiveId] = useState('');
 

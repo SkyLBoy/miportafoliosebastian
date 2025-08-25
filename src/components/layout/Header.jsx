@@ -11,7 +11,6 @@ const Header = () => {
   const { isMenuOpen, toggleMenu, closeMenu } = useMobileMenu();
   const isLoaded = useAnimations();
 
-  // Si quieres cambiar las secciones del menú, edita esto:
   const navItems = [
     { id: 'inicio', label: 'Inicio' },
     { id: 'sobre-mi', label: 'Sobre Mí' },
@@ -32,7 +31,7 @@ const Header = () => {
           <div className={`text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 transition-all duration-700 ${
             isLoaded ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-4'
           }`}>
-            &lt;DevPortafolio/&gt;
+            &lt;Portafolio de Sebastian/&gt;
           </div>
           
           {/* Navegación Desktop */}

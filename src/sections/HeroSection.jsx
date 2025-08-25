@@ -51,15 +51,19 @@ const HeroSection = () => {
             {/* Información de contacto */}
             <div className="flex flex-wrap gap-6 text-gray-400">
               <div className="flex items-center group cursor-pointer">
-                <Phone className="h-5 w-5 mr-3 text-blue-400 group-hover:scale-110 transition-transform" />
+                <Phone className="h-5 w-5 mr-3 text-blue-400 group-hover:scale-110 transition-transform flex-shrink-0" />
                 <span className="group-hover:text-gray-300 transition-colors">{personalInfo.phone}</span>
               </div>
-              <div className="flex items-center group cursor-pointer">
-                <Mail className="h-5 w-5 mr-3 text-purple-400 group-hover:scale-110 transition-transform" />
-                <span className="group-hover:text-gray-300 transition-colors">{personalInfo.email}</span>
+              
+              <div className="flex items-start group cursor-pointer max-w-[200px] sm:max-w-[250px] md:max-w-[300px]">
+                <Mail className="h-5 w-5 mr-3 text-purple-400 group-hover:scale-110 transition-transform flex-shrink-0 mt-1" />
+                <span className="group-hover:text-gray-300 transition-colors break-words overflow-wrap-anywhere text-sm leading-tight">
+                  {personalInfo.email}
+                </span>
               </div>
+              
               <div className="flex items-center group cursor-pointer">
-                <MapPin className="h-5 w-5 mr-3 text-green-400 group-hover:scale-110 transition-transform" />
+                <MapPin className="h-5 w-5 mr-3 text-green-400 group-hover:scale-110 transition-transform flex-shrink-0" />
                 <span className="group-hover:text-gray-300 transition-colors">{personalInfo.location}</span>
               </div>
             </div>

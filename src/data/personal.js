@@ -16,7 +16,7 @@ export const personalInfo = {
   // Información del CV
   cv: {
     fileName: "CV_Sebastian_Calderon_Desarrollador.pdf",
-    lastUpdated: "2025", // Puedes actualizar esta fecha cuando actualices tu CV
+    lastUpdated: "2025/08/25", // Puedes actualizar esta fecha cuando actualices tu CV
   },
   
   // Redes sociales
@@ -40,7 +40,7 @@ export const contactInfo = [
     title: 'Email',
     value: personalInfo.email,
     icon: 'Mail',
-    color: 'from-blue-500 to-blue-600',
+    color: 'from-blue-700 to-blue-600',
     hoverColor: 'hover:from-blue-600 hover:to-blue-700'
   },
   {

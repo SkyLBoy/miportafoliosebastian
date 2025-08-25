@@ -35,7 +35,7 @@ const DownloadCV = ({ variant = 'outline', className = '' }) => {
   };
 
   return (
-    <div className={`flex gap-2 ${className}`}>
+    <div className={`flex gap-2  ${className}`}>
       <Button 
         variant={variant}
         onClick={handleDownload}
@@ -54,7 +54,7 @@ const DownloadCV = ({ variant = 'outline', className = '' }) => {
         className="group px-3"
         title="Ver CV en nueva ventana"
       >
-        <Eye className="h-4 w-4 group-hover:scale-110 transition-transform" />
+        <Eye className="h-5 w-5 group-hover:scale-110 transition-transform" />
       </Button>
     </div>
   );
